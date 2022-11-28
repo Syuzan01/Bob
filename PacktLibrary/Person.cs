@@ -43,7 +43,9 @@ public string OptionalParameters(
          format:"command is {0},number is {1},active is  {2}",
          arg0:command,arg1:number,arg2:active);
    }
+
+   public void WriteLineConsole()
+   {
+      Console.WriteLine($"{Name} was born on a {DateOfBirth:dddd}.");
+   }
 }
-
-
-
